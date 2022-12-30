@@ -118,28 +118,28 @@ export const ProductServices = () => {
   let type = [
     {
       name: "data Services",
-      description: `TEETOP DIGITALs is reliable and affordable platform to buy cheap data bundles and Airtime topup of any Nigerian network. We offer the best price rates for Airtel, MTN, 9mobile and Glo data plans.`,
+      description: `praise smartbillss is reliable and affordable platform to buy cheap data bundles and Airtime topup of any Nigerian network. We offer the best price rates for Airtel, MTN, 9mobile and Glo data plans.`,
     },
     {
       name: "Airtime Services",
-      description: `TEETOP DIGITALs provide with an Easy topup of airtime, Low charges rates and quick to recharge serives`,
+      description: `praise smartbillss provide with an Easy topup of airtime, Low charges rates and quick to recharge serives`,
     },
     {
       name: "Cable Subscription",
-      description: `Save money by renewing your DSTV, GOTV and Startimes subscriptions at discounted rates with TEETOP DIGITALs. We provide easy access to cable subscrition saving you the time to go all around.`,
+      description: `Save money by renewing your DSTV, GOTV and Startimes subscriptions at discounted rates with praise smartbillss. We provide easy access to cable subscrition saving you the time to go all around.`,
     },
-    {
-      name: "WAEC/NECO scratch cards",
-      description: `Your one-stop shop for all kinds of Examination Scratch Cards. We are your surest plug for Genuine Waec, Neco and Nabteb Scratch Cards. Your happiness is our delight. We take pride in delivering world-class service, and we are very confident that after your first experience using our service, you'd make our website your Homepage.`,
-    },
-    {
-      name: " Swiftest Delivery   ",
-      description: `Enjoy prompt delivery of services purchased through TEETOP DIGITALs. Our promise to you is to deliver value for every transaction made on-time, every time.`,
-    },
-    {
-      name: "good customer care service",
-      description: `Our well trained customer support agents are always available 24/7 to help you resolve any issues. We provide you with multiple ways to reach us and get fast help.`,
-    },
+    // {
+    //   name: "WAEC/NECO scratch cards",
+    //   description: `Your one-stop shop for all kinds of Examination Scratch Cards. We are your surest plug for Genuine Waec, Neco and Nabteb Scratch Cards. Your happiness is our delight. We take pride in delivering world-class service, and we are very confident that after your first experience using our service, you'd make our website your Homepage.`,
+    // },
+    // {
+    //   name: " Swiftest Delivery   ",
+    //   description: `Enjoy prompt delivery of services purchased through praise smartbillss. Our promise to you is to deliver value for every transaction made on-time, every time.`,
+    // },
+    // {
+    //   name: "good customer care service",
+    //   description: `Our well trained customer support agents are always available 24/7 to help you resolve any issues. We provide you with multiple ways to reach us and get fast help.`,
+    // },
   ];
   return (
     <Container>
@@ -271,7 +271,7 @@ export const GainHeader = () => {
         <MiddleHeader text={"What you stand to gain with us"} />
         <div className="d-flex justify-content-center">
           <p className="text-center w-50 w50 fontReduce">
-            With TEETOP DIGITALs, You will enjoy a fast data delivery with
+            With praise smartbillss, You will enjoy a fast data delivery with
             Optimal security and also enjoy the best offers and discount sales
             on all our products periodically
           </p>
@@ -331,10 +331,10 @@ const CustomerHeader = () => {
         <MiddleHeader text={"Hear our customers speak"} />
         <div className="d-flex justify-content-center">
           <p className="text-center w-50 w50 fontReduce">
-            Ever since i started business with TEETOP DIGITALs it has been all
-            smiles...they have the best customer service team ever...prompt and
-            fast response to issues. teetop digital thanks for always being
-            true.
+            Ever since i started business with praise smartbillss it has been
+            all smiles...they have the best customer service team ever...prompt
+            and fast response to issues. praise smartbills thanks for always
+            being true.
           </p>
         </div>
       </section>

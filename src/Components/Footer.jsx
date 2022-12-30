@@ -1,5 +1,5 @@
 import React from "react";
-import logoLight from "../Assets/teetop1.png";
+// import logoLight from "../Assets/praise1.png";
 import { Link } from "react-router-dom";
 import {
   FaPhone,
@@ -31,15 +31,15 @@ export let socials = [
 ];
 
 export let details = [
-  { icon: <FaPhone />, text: "+2349020304941", type: "tel" },
+  { icon: <FaPhone />, text: "+2348065498200", type: "tel" },
   {
     icon: <FaEnvelopeSquare />,
-    text: "elusakinyomi@gmail.com",
+    text: "ailerufiyinfoluwa@gmail.com",
     type: "mail",
   },
   {
     icon: <FaMapMarker />,
-    text: "teetop Entrprrises",
+    text: "praise smartbills",
     type: "address",
   },
 ];
@@ -68,13 +68,17 @@ const Footer = () => {
               to="/"
               className="text-decoration-none text-white d-flex align-items-center mb-5"
             >
-              <img src={logoLight} alt="Honourworld" className="logo me-1 logo-img-size" />
-              {/* <div className="">
-                <p className="text-capitalize m-0 text-light">teetop</p>
+              {/* <img
+                src={logoLight}
+                alt="Honourworld"
+                className="logo me-1 logo-img-size"
+              /> */}
+              <div className="">
+                <p className="text-capitalize m-0 text-light">praise</p>
                 <p className="text-capitalize m-0 site-secondary-color">
-                  digital
+                  smartbills
                 </p>
-              </div> */}
+              </div>
             </Link>
             {/* <div className="d-none d-md-block fontReduce">
 							We are the #MOVEMENT People Your Trusted Logistics Aggregator
@@ -190,7 +194,8 @@ const Footer = () => {
               &copy; {`${new Date().getFullYear() !== 2022 ? "2022 - " : ""}`}
               {new Date().getFullYear()}
             </span>
-            &nbsp; <span className="d-block d-lg-inline">TEETOP DIGITAL</span>
+            &nbsp;{" "}
+            <span className="d-block d-lg-inline">praise smartbills</span>
           </p>
         </div>
       </div>
