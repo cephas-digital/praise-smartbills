@@ -3,7 +3,7 @@ import { GlobalState } from "../Data/Context";
 import { useNavigate, Link } from "react-router-dom";
 import { Container } from "reactstrap";
 import { Buttons, EyeToggle } from "../Utils";
-// import logo from "../Assets/praise1 (2).png";
+import logo from "../Assets/ps.png";
 
 const Register = () => {
   const { loginUser, auth } = useContext(GlobalState);
@@ -162,17 +162,17 @@ export const DefaultAuthComponent = ({ children }) => {
             to="/"
             className="text-decoration-none text-dark d-flex align-items-center mb-4"
           >
-            {/* <img
+            <img
               src={logo}
               alt="Honourworld"
               className="logo me-1 logo-img-size"
-            /> */}
-            <div className="d-none d-md-block">
+            />
+            {/* <div className="d-none d-md-block">
               <p className="text-capitalize site-primary-color m-0">praise</p>
               <p className="text-capitalize site-secondary-color m-0">
                 Enterprises
               </p>
-            </div>
+            </div> */}
           </span>
           {children}
         </Container>

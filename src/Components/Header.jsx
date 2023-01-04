@@ -2,7 +2,7 @@ import React, { useEffect, useContext, useState } from "react";
 import { useLocation, Link, useNavigate } from "react-router-dom";
 import { GlobalState } from "../Data/Context";
 import { Navbar, Collapse, Nav, NavItem } from "reactstrap";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/ps.png";
 import { FaTimes, FaBars } from "react-icons/fa";
 
 const Header = () => {
@@ -55,13 +55,13 @@ const Header = () => {
         to="/"
         className="text-decoration-none text-dark d-flex align-items-center"
       >
-        {/* <img src={logo} alt="Honourworld" className="logo me-1 logo-img-size" /> */}
-        <div className="d-block">
+        <img src={logo} alt="Honourworld" className="logo me-1 logo-img-size" />
+        {/* <div className="d-block">
           <p className="text-capitalize site-primary-color m-0">praise</p>
           <p className="text-capitalize site-secondary-color ml-4">
             smartbills
           </p>
-        </div>
+        </div> */}
       </Link>
       {isOpen ? (
         <FaTimes

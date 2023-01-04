@@ -1,5 +1,5 @@
 import React from "react";
-// import logoLight from "../Assets/praise1.png";
+import logoLight from "../Assets/ps copy.png";
 import { Link } from "react-router-dom";
 import {
   FaPhone,
@@ -14,7 +14,7 @@ import {
 export let socials = [
   {
     icon: <FaWhatsapp size={24} />,
-    url: "https://wa.me/message/QNHCJYN6TSZGG1",
+    url: "https://wa.link/vemnuc",
   },
   {
     icon: <FaInstagramSquare size={24} />,
@@ -22,11 +22,15 @@ export let socials = [
   },
   {
     icon: <FaFacebook size={24} />,
-    url: "https://www.facebook.com/profile.php?id=100077522783530",
+    url: "https://www.facebook.com/profile.php?id=100089022584103",
   },
   {
     icon: <FaTwitter size={24} />,
-    url: "https://twitter.com/Honourworld?t=WwN0_bwU-xC_1Qr0PlIc9A&s=09",
+    url: "https://twitter.com/p_smartbills?s=21&t=GfoSMDaA28b2AyvoDSt8zA",
+  },
+  {
+    icon: <FaTwitter size={24} />,
+    url: "https://twitter.com/p_smartbills?s=21&t=GfoSMDaA28b2AyvoDSt8zA",
   },
 ];
 
@@ -39,6 +43,26 @@ export let details = [
   },
   {
     icon: <FaMapMarker />,
+    text: "praise smartbills",
+    type: "address",
+  },
+  {
+    icon: <FaFacebook />,
+    text: "praise smartbills",
+    type: "address",
+  },
+  {
+    icon: <FaWhatsapp />,
+    text: "+2348065498200",
+    type: "address",
+  },
+  {
+    icon: <FaTwitter />,
+    text: "praise smartbills",
+    type: "address",
+  },
+  {
+    icon: <FaInstagramSquare />,
     text: "praise smartbills",
     type: "address",
   },
@@ -68,17 +92,17 @@ const Footer = () => {
               to="/"
               className="text-decoration-none text-white d-flex align-items-center mb-5"
             >
-              {/* <img
+              {<img
                 src={logoLight}
                 alt="Honourworld"
                 className="logo me-1 logo-img-size"
-              /> */}
-              <div className="">
+              />}
+              {/*<div className="">
                 <p className="text-capitalize m-0 text-light">praise</p>
                 <p className="text-capitalize m-0 site-secondary-color">
                   smartbills
                 </p>
-              </div>
+              </div>*/}
             </Link>
             {/* <div className="d-none d-md-block fontReduce">
 							We are the #MOVEMENT People Your Trusted Logistics Aggregator
